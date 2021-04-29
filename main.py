@@ -1,10 +1,10 @@
 # main.py
 from data import sname, reponame
 
-def main():
-    print('Hello GitHub')
+def main(sname):
+    print(f'Hello, {sname}!')
 
 
 if __name__ == '__main__':
-    main()
+    main(sname)
     print(f'{sname}: {reponame}')
