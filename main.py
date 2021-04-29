@@ -1,5 +1,5 @@
 # main.py
-
+from data import sname, reponame
 
 def main():
     print('Hello GitHub')
@@ -7,4 +7,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-
+    print(f'{sname}: {reponame}')
